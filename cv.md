@@ -37,9 +37,9 @@ function howManyLightsabersDoYouOwn(name) {
 
 ##Education
 
-* College
-* CS50
-* Freecodecamp
+* College (Computer systems technician);
+* CS50;
+* Freecodecamp.
 
 ##Languages
 
