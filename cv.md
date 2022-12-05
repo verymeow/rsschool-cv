@@ -1,11 +1,11 @@
-#Podkorytova Kseniya
+# Podkorytova Kseniya
 
-##Contacts: 
+## Contacts: 
 
  * [telegram](t.me/very_meow)
  * [github](github.com/verymeow)
  
- ##About me
+ ## About me
  
  I am 25 years old, and I want to learn Front-end development. 
  
@@ -14,7 +14,7 @@
  * Responsibility;
  * Attentiveness.
 
-##Skills
+## Skills
 
 * JS (begginer);
 * Html&CSS;
@@ -22,26 +22,26 @@
 * Figma;
 * Python. 
 
-##Code example
+## Code example
 
-'''
+```
 function howManyLightsabersDoYouOwn(name) {
   return name=="Zach" ? 18 : 0;
 }
-'''
+```
 
-##Work experience
+## Work experience
 
 * Jan, 2022 - Oct, 2022 College teacher
 * Oct, 2020 - Dec, 2021 College teacher
 
-##Education
+## Education
 
 * College (Computer systems technician);
 * CS50;
 * Freecodecamp.
 
-##Languages
+## Languages
 
 * Russian
 * English (B2)
