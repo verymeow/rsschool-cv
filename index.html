@@ -1,13 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-  <script src="js/scripts.js"></script>
-</body>
+    <head>
+        <meta charset="utf-8">
+        <link href="style.css" rel="stylesheet">
+        <title>My CV</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul class="navigation">
+                    <li class="nav-list"><a href="#about">About myself</a></li>
+                    <li class="nav-list"><a href="#skills">Skills</a></li>
+                    <li class="nav-list"><a href="#edu">Education & Courses</a></li>
+                    <li class="nav-list"><a href="#projects">Projects</a></li>
+                    <li class="nav-list"><a href="#code">Code</a></li>
+                    <li class="nav-list"><a href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="about">
+                <img class="avatar" src="source/295688643_781519883080708_3661286789774670377_n.jpg" alt="avatar">
+                <h1>Hi! This is my CV!</h1>
+                <p>My name is Kseniya Podkorytova. I want to be a frontend developer. I am smart and funny, I am good as a team player. </p>
+            </section>
+            <section id="skills">
+                <h2>Here are my hard skills:</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS (begginer)</li>
+                    <li>git</li>
+                    <li>Python</li>
+                </ul>
+            </section>
+            <section id="edu">
+                <h2>My education</h2>
+                <ul>
+                    <li>2019, College (Computer systems technician);</li>
+                    <li>FreeCodeCamp Sertification</li>
+                </ul>
+            </section>
+            <section id="projects">
+                <h2>Here are few of my projects:</h2>
+                <ul>
+                    <li><a href="https://codepen.io/verymeow/pen/mdXdLWb">Tribute Page</a></li>
+                    <li><a href="https://codepen.io/verymeow/pen/mdXdYXm">Survey Form</a></li>
+                </ul>
+            </section>
+            <section id="code">
+                <h2>Code</h2>
+                <pre>
+                    <code>
+                    const quarterOf = (month) => {
+                        if (month &lt;= 3) {
+                          return 1;
+                        }
+                        else if (month&lt;=6){
+                          return 2;
+                        }
+                        else if (month&lt;=9) {
+                          return 3;
+                        }
+                        else return 4;
+                      }
+                    </code>
+                </pre>
+            </section>
+            <section id="contacts">
+                <h2>You can contact me:</h2>
+                <ul>
+                    <li><a href="t.me/very_meow">telegram</a></li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <div><a class="git" href="https://github.com/verymeow">github</a>
+            <p class="year">2022</p></div>
+            <div><a href="https://rs.school/js/" class="rss"><img class="logo" src="source/rs_school_js.svg" alt="logo"></a>
+            </div>
+        </footer>
+    </body>
 </html>
